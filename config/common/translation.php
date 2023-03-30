@@ -17,7 +17,7 @@ return [
         $translator->addLoader('php', new PhpFileLoader());
 
         foreach ($config['resources'] as $resource) {
-            $translator->addResource('php', $resource['file'], $resource['lang']);
+            $translator->addResource($resource['format'], $resource['file'], $resource['lang']);
         }
 
         return $translator;
