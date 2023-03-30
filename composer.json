@@ -1,0 +1,26 @@
+{
+  "name": "most2820/nutgram-skeleton",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "most2820",
+      "email": "most2820@yandex.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0",
+    "nutgram/nutgram": "^3.17",
+    "vlucas/phpdotenv": "^5.5",
+    "php-di/php-di": "^7.0",
+    "laminas/laminas-config-aggregator": "^1.13",
+    "symfony/translation": "^6.0"
+  },
+  "scripts": {
+    "app": "php bin/app --ansi"
+  }
+}
