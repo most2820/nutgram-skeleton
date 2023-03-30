@@ -29,12 +29,12 @@ return [
             'resources' => [
                 [
                     'format' => 'php',
-                    'file' => dirname(__DIR__, 2) . '/translations/exception.en.php',
+                    'file' => dirname(__DIR__, 2) . '/translations/exceptions.en.php',
                     'lang' => 'en',
                 ],
                 [
                     'format' => 'php',
-                    'file' => dirname(__DIR__, 2) . '/translations/exception.ru.php',
+                    'file' => dirname(__DIR__, 2) . '/translations/exceptions.ru.php',
                     'lang' => 'ru',
                 ],
                 [
