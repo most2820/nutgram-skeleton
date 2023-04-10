@@ -21,7 +21,6 @@
     }
   },
   "scripts": {
-    "app": "php bin/app --ansi",
-    "psalm": "psalm --config=psalm.xml"
+    "app": "php bin/app --ansi"
   }
 }
